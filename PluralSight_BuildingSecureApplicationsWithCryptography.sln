@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomNumber", "RandomNumber\RandomNumber.csproj", "{5B6DE26B-0775-433E-8D58-A982F194ED00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hashing", "Hashing\Hashing.csproj", "{18E58E4F-C713-447C-90B8-3E685B1F1478}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMAC", "HMAC\HMAC.csproj", "{AEDF97D5-7237-47D8-BB11-02847D24DDB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B6DE26B-0775-433E-8D58-A982F194ED00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6DE26B-0775-433E-8D58-A982F194ED00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6DE26B-0775-433E-8D58-A982F194ED00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6DE26B-0775-433E-8D58-A982F194ED00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E58E4F-C713-447C-90B8-3E685B1F1478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E58E4F-C713-447C-90B8-3E685B1F1478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E58E4F-C713-447C-90B8-3E685B1F1478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E58E4F-C713-447C-90B8-3E685B1F1478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDF97D5-7237-47D8-BB11-02847D24DDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDF97D5-7237-47D8-BB11-02847D24DDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDF97D5-7237-47D8-BB11-02847D24DDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDF97D5-7237-47D8-BB11-02847D24DDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00C1E7AE-56F3-4F75-ACC8-35D5002A10A6}
+	EndGlobalSection
+EndGlobal
