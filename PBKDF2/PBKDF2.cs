@@ -42,6 +42,7 @@ namespace Pluralsight.PBKDF2
         {
             using (var rfc2898 = new Rfc2898DeriveBytes(toBeHashed, salt, numberOfRounds))
             {
+                // Because SHAR1 is used internally, there is no advantage gained by using more than 20 bytes
                 return rfc2898.GetBytes(20);
             }
         }
