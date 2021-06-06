@@ -30,7 +30,7 @@ namespace Pluralsight.Asymetric
     {
         static void Main()
         {
-            RsaWithRsaParameterKey();
+            //RsaWithRsaParameterKey();
 
             //
             // Not Supported on MacOS

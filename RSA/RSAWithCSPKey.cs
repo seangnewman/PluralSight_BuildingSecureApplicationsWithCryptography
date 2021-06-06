@@ -35,7 +35,7 @@ namespace Pluralsight.Asymetric
             {
                 KeyContainerName = ContainerName,
                 Flags = CspProviderFlags.UseMachineKeyStore,
-                ProviderName = "Microsoft Strong Cryptographic Provider"
+                ProviderName = "Microsoft Strong Cryptographic Provider"   // Default value
             };
 
             var rsa = new RSACryptoServiceProvider(cspParams) { PersistKeyInCsp = true };

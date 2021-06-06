@@ -32,8 +32,12 @@ namespace Pluralsight.Asymetric
         {
             byte[] encryptedPrivateKey = new byte[2000];
            
-            PbeParameters keyParams = new PbeParameters(PbeEncryptionAlgorithm.Aes256Cbc, HashAlgorithmName.SHA256, numberOfIterations);  
-            encryptedPrivateKey = rsa.ExportEncryptedPkcs8PrivateKey(Encoding.UTF8.GetBytes(password), keyParams);
+            PbeParameters keyParams = new PbeParameters(PbeEncryptionAlgorithm.Aes256Cbc, HashAlgorithmName.SHA256, numberOfIterations);
+
+            var arraySpan = new Span<byte>(encryptedPrivateKey);
+            rsa.TryExportEncryptedPkcs8PrivateKey(Encoding.UTF8.GetBytes(password), keyParams, arraySpan, out _);
+
+            //encryptedPrivateKey = rsa.ExportEncryptedPkcs8PrivateKey(Encoding.UTF8.GetBytes(password), keyParams);
 
             return encryptedPrivateKey;
         }
