@@ -25,6 +25,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleDES", "TripleDES\Trip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalSignature", "DigitalSignature\DigitalSignature.csproj", "{D22F06D5-8C78-4942-BE37-311F3FE9856F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid", "Hybrid\Hybrid.csproj", "{26551E7E-5043-4B24-93C3-6F243C30B6D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HybridWithIntegrity", "HybridWithIntegrity\HybridWithIntegrity.csproj", "{DE922110-6874-4598-A21D-A48035DDCEE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HybridWithIntegrityAndSignatureGCM", "HybridWithIntegrityAndSignatureGCM\HybridWithIntegrityAndSignatureGCM.csproj", "{69B2D823-CB50-4D07-94F5-40BFE8FD1803}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HybridWithIntegrityAndSignature", "HybridWithIntegrityAndSignature\HybridWithIntegrityAndSignature.csproj", "{892E04B1-8982-4540-A601-6F6EA05DCBB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +83,22 @@ Global
 		{D22F06D5-8C78-4942-BE37-311F3FE9856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D22F06D5-8C78-4942-BE37-311F3FE9856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D22F06D5-8C78-4942-BE37-311F3FE9856F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26551E7E-5043-4B24-93C3-6F243C30B6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26551E7E-5043-4B24-93C3-6F243C30B6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26551E7E-5043-4B24-93C3-6F243C30B6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26551E7E-5043-4B24-93C3-6F243C30B6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE922110-6874-4598-A21D-A48035DDCEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE922110-6874-4598-A21D-A48035DDCEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE922110-6874-4598-A21D-A48035DDCEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE922110-6874-4598-A21D-A48035DDCEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B2D823-CB50-4D07-94F5-40BFE8FD1803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B2D823-CB50-4D07-94F5-40BFE8FD1803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B2D823-CB50-4D07-94F5-40BFE8FD1803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B2D823-CB50-4D07-94F5-40BFE8FD1803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892E04B1-8982-4540-A601-6F6EA05DCBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892E04B1-8982-4540-A601-6F6EA05DCBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892E04B1-8982-4540-A601-6F6EA05DCBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892E04B1-8982-4540-A601-6F6EA05DCBB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
